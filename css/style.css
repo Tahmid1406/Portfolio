@@ -100,6 +100,20 @@ a.nav-link {
     margin-left: 2rem;
     /* transition: 0.2s linear; */
 }
+ul.dropdown-menu {
+    background: rgba(0, 0, 0, 0.7) !important;
+    margin-top: 15px !important;
+    padding: 10px;
+}
+
+ul.dropdown-menu li a:hover {
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+ul.dropdown-menu .dropdown-item {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .home-pro-img {
     height: 25rem;
@@ -309,15 +323,33 @@ a.nav-link {
 .shaheen {
     height: 13rem !important;
 }
+.honors-text ul {
+    list-style-type: disc;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 2rem;
+    list-style: none;
+}
+
+.honor-arrow {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.85);
+    display: inline-block;
+}
+
+.honors-text ul li {
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
 
 /* css for the publication page */ /* css for the publication page */
 .publication h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     display: inline;
 }
 
 .publication h4 {
+    margin-top: 0.5rem;
     font-size: 2rem;
 }
 .publication h3 {
@@ -337,6 +369,7 @@ a.nav-link {
     max-height: 500px;
     max-width: 500px;
     margin-right: 20px;
+    margin-bottom: 3rem;
 }
 @media (max-width: 550px) {
     .research-image-1 {
@@ -348,7 +381,47 @@ a.nav-link {
 .publication-holder {
     padding-bottom: 10px;
     border-bottom: solid 2px rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2rem;
 }
 .except-first {
     margin-top: 2rem;
+}
+
+/* css for the project page */
+.project-holder {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.7);
+}
+.project-img-holder {
+    text-align: center;
+}
+.project-img {
+    height: 45rem;
+    width: 28rem;
+    min-height: 400px;
+    min-width: 250px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.project-holder h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.project-holder h3 {
+    font-size: 2rem;
+}
+
+.project-holder p.project-des {
+    font-size: 1.8rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.project-holder p.img-title {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
 }
