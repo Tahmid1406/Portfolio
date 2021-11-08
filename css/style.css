@@ -94,6 +94,17 @@ a:link {
 a.nav-link {
     color: rgba(255, 255, 255, 0.8) !important;
 }
+.navbar-toggler {
+    background: #eee;
+}
+.nav-profile-icons {
+    color: rgba(255, 255, 255, 0.8) !important;
+    padding: 5px;
+    margin: 0px, 0px, 0px, 10px;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
 .nav-img {
     height: 6rem;
     width: 13rem;
@@ -344,7 +355,6 @@ a.nav-link {
 /* css for the publication page */ /* css for the publication page */
 .publication h2 {
     font-size: 2.5rem;
-    font-weight: bold;
     display: inline;
 }
 
@@ -381,7 +391,6 @@ a.nav-link {
 .publication-holder {
     padding-bottom: 10px;
     border-bottom: solid 2px rgba(0, 0, 0, 0.9);
-    background: rgba(0, 0, 0, 0.1);
     padding: 2rem;
 }
 .except-first {
@@ -390,8 +399,6 @@ a.nav-link {
 
 /* css for the project page */
 .project-holder {
-    background: rgba(0, 0, 0, 0.1);
-    padding: 2rem;
     border-bottom: solid 2px rgba(0, 0, 0, 0.7);
 }
 .project-img-holder {
@@ -400,8 +407,8 @@ a.nav-link {
 .project-img {
     height: 45rem;
     width: 28rem;
-    min-height: 400px;
-    min-width: 250px;
+    min-height: 350px;
+    min-width: 220px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
@@ -415,13 +422,36 @@ a.nav-link {
 }
 
 .project-holder p.project-des {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: justify;
     text-justify: inter-word;
+    margin-top: 1rem;
 }
 
 .project-holder p.img-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 0.8rem;
     margin-bottom: 2rem;
+}
+.rest-pro {
+    margin-top: 2rem;
+}
+
+.project-img-ml {
+    height: 40rem;
+    width: 40rem;
+    min-height: 350px;
+    min-width: 350px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+/* css for the thesis page */
+.thesis-img {
+    height: 40rem;
+    width: 38rem;
+    min-height: 350px;
+    min-width: 350px;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
