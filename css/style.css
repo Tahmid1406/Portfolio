@@ -458,8 +458,6 @@ a.nav-link {
 .project-img {
     height: 45rem;
     width: 28rem;
-    min-height: 350px;
-    min-width: 220px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
@@ -491,8 +489,6 @@ a.nav-link {
 .project-img-ml {
     height: 40rem;
     width: 40rem;
-    min-height: 300px;
-    min-width: 300px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
@@ -515,8 +511,8 @@ a.nav-link {
         font-size: 1.7rem;
     }
     .project-img-ml {
-        height: 250px !important;
-        width: 250px !important;
+        height: 230px !important;
+        width: 230px !important;
     }
     .project-img {
         height: 400px !important;
