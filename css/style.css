@@ -403,7 +403,7 @@ a.nav-link {
     }
 }
 
-/* css for the publication page */ /* css for the publication page */
+/* css for the publication page */
 .publication h2 {
     font-size: 2.5rem;
     display: inline;
@@ -491,13 +491,42 @@ a.nav-link {
 .project-img-ml {
     height: 40rem;
     width: 40rem;
-    min-height: 350px;
-    min-width: 350px;
+    min-height: 300px;
+    min-width: 300px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
 .last-project {
     border-bottom: none;
+}
+
+@media (max-width: 480px) {
+    section.project .heading {
+        font-size: 3rem;
+    }
+    .project-holder h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .project-holder h3 {
+        font-size: 1.7rem;
+    }
+    .project-holder p.project-des {
+        font-size: 1.7rem;
+    }
+    .project-img-ml {
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .project-img {
+        height: 35rem;
+        width: 22rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+    .publication-btn-1 {
+        margin-bottom: 0px;
+    }
 }
 
 /* css for the thesis page */
