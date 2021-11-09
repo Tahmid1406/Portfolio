@@ -72,7 +72,14 @@ a:link {
     padding: 0 0.5rem;
     font-size: 1.8rem;
 }
-
+@media (max-width: 480px) {
+    .butn {
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+    }
+}
 .butn:hover {
     background: rgba(0, 0, 0, 0.9);
 }
@@ -439,10 +446,23 @@ a.nav-link {
         max-width: 300px;
     }
 }
+@media (max-width: 480px) {
+    section.publication .heading {
+        font-size: 3rem;
+    }
+    section.publication h2 {
+        font-size: 2rem;
+    }
+    section.publication h4 {
+        font-size: 1.3rem;
+    }
+    section.publication h3 {
+        font-size: 1.5rem;
+    }
+}
 .publication-holder {
     padding-bottom: 10px;
     border-bottom: solid 2px rgba(0, 0, 0, 0.9);
-    padding: 2rem;
 }
 .except-first {
     margin-top: 2rem;
@@ -511,12 +531,12 @@ a.nav-link {
         font-size: 1.7rem;
     }
     .project-img-ml {
-        height: 230px !important;
-        width: 230px !important;
+        height: 260px !important;
+        width: 260px !important;
     }
     .project-img {
         height: 400px !important;
-        width: 250px !important;
+        width: 260px !important;
     }
     .publication-btn-1 {
         margin-bottom: 0px;
@@ -527,10 +547,22 @@ a.nav-link {
 .thesis-img {
     height: 40rem;
     width: 38rem;
-    min-height: 350px;
-    min-width: 350px;
     margin-top: 2rem;
     margin-right: 2rem;
+}
+@media (max-width: 480px) {
+    section.thesis .heading {
+        font-size: 3rem;
+    }
+    .thesis-img {
+        width: 270px !important;
+    }
+    .tm-1 {
+        height: 300px;
+    }
+    .tm-2 {
+        height: 250px;
+    }
 }
 
 /* css for the certificate page */
@@ -545,7 +577,21 @@ a.nav-link {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
+@media (max-width: 480px) {
+    section.certification .heading {
+        font-size: 3rem;
+    }
+    section.certification h2 {
+        font-size: 1.8rem;
+    }
+    section.certification h3 {
+        font-size: 1.5rem;
+    }
+    .certificate-img {
+        height: 220px;
+        width: 280px;
+    }
+}
 /* css for the skill page */
 .skill h3 {
     font-size: 2.5rem;
@@ -569,4 +615,23 @@ a.nav-link {
 .box-skill {
     border-top: solid 1px rgba(0, 0, 0, 0.5);
     border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 480px) {
+    section.skill .heading {
+        font-size: 3rem;
+    }
+    .skill h3 {
+        font-size: 2rem;
+    }
+    .skill i {
+        font-size: 1.7rem;
+    }
+    .skill ul li {
+        font-size: 1.7rem;
+        margin-left: 3rem;
+    }
+    .skill-box {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
