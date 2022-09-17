@@ -103,12 +103,19 @@ a:link {
 a.nav-link {
     color: rgba(0, 0, 0, 0.8) !important;
     font-size: 1.5rem !important;
-    margin-left: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
     font-weight: 510;
+    text-align: center;
 }
 
 .navbar-toggler {
     background: #eee;
+}
+.navbar ul li:hover {
+    background-color: #e1f0f8;
+    box-sizing: border-box;
+    border-radius: 2px;
 }
 .nav-profile-icons {
     color: rgba(0, 0, 0, 0.8) !important;
@@ -147,14 +154,30 @@ ul.dropdown-menu .dropdown-item {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.home-pro-img {
-    height: 25rem;
-    width: 25rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+
+/* css for home */
+
+.home{
+    margin-top: 5rem;
 }
+.home-pro-img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.7rem;
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.85);
+}
+.info h3 {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+}
+
 
 
 
@@ -201,15 +224,7 @@ ul.dropdown-menu .dropdown-item {
     font-size: 2rem;
     color: #fff;
 }
-.info h1 {
-    font-size: 5rem;
-    color: rgba(0, 0, 0, 0.85);
-}
-.info h3 {
-    font-size: 2rem;
-    color: rgba(0, 0, 0, 0.85);
-    font-weight: bold;
-}
+
 
 @media (max-width: 1220px) {
     .home-pro-img {
@@ -271,6 +286,9 @@ ul.dropdown-menu .dropdown-item {
         width: 2.5rem;
     }
 }
+
+
+
 /* css for the about page */
 .about p {
     font-size: 1.8rem;
