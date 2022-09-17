@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
 
 :root {
     --yellow: #3cb371;
 }
 
 * {
-    font-family: "Nunito", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -96,16 +95,23 @@ a:link {
 
 /* css for the home page */
 .navbar {
-    background: rgba(0, 0, 0, 0.7) !important;
+    background: rgb(#FFF) !important;
+    -webkit-box-shadow: 0 4px 8px -6px #222;
+    -moz-box-shadow: 0 4px 8px -6px #222;
+    box-shadow: 0 4px 8px -6px #222;
 }
 a.nav-link {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 1.5rem !important;
+    margin-left: 10px;
+    font-weight: 510;
 }
+
 .navbar-toggler {
     background: #eee;
 }
 .nav-profile-icons {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
     padding: 5px;
     margin: 0px, 0px, 0px, 10px;
     font-size: 2.2rem;
@@ -150,11 +156,7 @@ ul.dropdown-menu .dropdown-item {
     margin-bottom: 1rem;
 }
 
-a.nav-link {
-    font-size: 2rem !important;
-    font-weight: bold !important;
-    margin-left: 10px;
-}
+
 
 .counter {
     flex: 1 1 48rem;
