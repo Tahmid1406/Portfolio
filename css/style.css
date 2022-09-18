@@ -176,24 +176,22 @@ ul.dropdown-menu .dropdown-item {
 
 .cv-btn{
     padding: 0.7rem 3rem;
-    background: #aae1ef;
-    color: rgb(7, 4, 44);
+    background-color: #59b1ec;
+    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.4);
+    color: #fff;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 16px;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
 }
 
 .cv-btn:hover{
-    background-color: #59b1ec;
-    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.4);
-    color: #fff;
-    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.6);
+    transform: translateY(-4px);
 }
 
 .cv-btn i {
@@ -231,12 +229,12 @@ ul.dropdown-menu .dropdown-item {
 
 .profile-wrap{
     width: 22%;
-    background: #aae1ef;
-    color: rgb(7, 4, 44);
+    background-color: #59b1ec;
+    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.4);
+    color: #fff;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
@@ -244,10 +242,10 @@ ul.dropdown-menu .dropdown-item {
     padding-bottom: 10px;
 }
 
-.profile-wrap:hover h3{
+.profile-wrap h3{
     color: #FFF;
 }
-.profile-wrap:hover i{
+.profile-wrap i{
     color: #FFF;
 }
 
@@ -261,10 +259,8 @@ ul.dropdown-menu .dropdown-item {
 }
 
 .profile-wrap:hover{
-    background-color: #59b1ec;
-    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.4);
-    color: #fff;
-    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px rgba(82, 159, 178, 0.6);
+    transform: translateY(-4px);
 }
 
 
@@ -334,131 +330,73 @@ ul.dropdown-menu .dropdown-item {
 
 /* css for the academic page */
 
+.education{
+    margin-top: 5rem;
+}
+
+.second-box{
+    margin-left: 50%;
+
+}
 .education .acc-box {
     margin: 2rem 1rem;
     padding-left: 1rem;
-    border-left: 0.2rem solid rgba(0, 0, 0, 0.9);
-    color: #222;
+    border-left: 0.2rem solid #59b1ec;
     position: relative;
 }
 .education .acc-box span {
-    font-size: 1.8rem;
-    background: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    background: #59b1ec;
     color: #fff;
     border-radius: 5rem;
-    padding: 0.5rem 2.5rem;
-    margin-bottom: 1rem;
-    margin-right: -1rem;
+    padding: 0.6rem 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: -1rem;
 }
 .education .acc-box i {
     position: absolute;
-    top: -1.5rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
+    top: -1rem;
+    left: -1.8rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
-    line-height: 5rem;
+    line-height: 3.5rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.9);
-}
-.education .school-img {
-    height: 15rem;
-    width: 15rem;
-    float: left;
-    margin-top: 10px;
+    background: #59b1ec;
 }
 
 .education .acc-box .box-content {
     margin-top: 2rem;
 }
 
-.education .acc-box .box-content h5 {
-    font-size: 1.7rem;
+.education .acc-box .box-content h2 {
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.85);
     padding-top: 0.2rem;
 }
 
-.education .acc-box .box-content .school-name {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.gas {
-    margin-top: 20px !important;
-    margin-right: 2rem;
-    margin-left: 1em;
-    height: 12rem !important;
-    width: 12rem !important;
-}
-.nsu {
-    height: 14rem !important;
-    width: 14rem !important;
-}
-.shaheen {
-    height: 13rem !important;
-}
-.honors-text ul {
-    list-style-type: disc;
+.education .acc-box .box-content h3 {
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.85);
-    font-size: 2rem;
-    list-style: none;
+    padding-top: 0.2rem;
 }
 
-.honor-arrow {
-    font-size: 2rem;
-    color: rgba(0, 0, 0, 0.85);
-    display: inline-block;
-}
-
-.honors-text ul li {
-    margin-top: 1rem;
-    margin-left: -2rem;
-}
 
 @media (max-width: 480px) {
+    .education .acc-box .box-content h2 {
+        font-size: 16px;
+    }
+    
+    .education .acc-box .box-content h3 {
+        font-size: 14px;
+    }
     .education .acc-box span {
-        font-size: 1.4rem;
-    }
-    section.education .heading {
-        font-size: 3rem;
-    }
-    .education .acc-box .box-content h5 {
-        font-size: 1.3rem;
-    }
-    .gas {
-        margin-top: 20px !important;
-        margin-right: 1rem;
-        margin-left: 1em;
-        height: 10rem !important;
-        width: 10rem !important;
-    }
-    .nsu {
-        height: 10rem !important;
-        width: 10rem !important;
-    }
-    .shaheen {
-        height: 10rem !important;
-        width: 12rem !important;
-    }
-    .education .acc-box .box-content .school-name {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    .bau {
-        margin-top: 20px;
-        height: 12rem !important;
-        width: 12rem !important;
-    }
-    .honors-text ul {
-        font-size: 1.5rem;
-    }
-
-    .honor-arrow {
-        font-size: 1.5rem;
+        font-size: 14px;
     }
 }
+
 
 /* css for the publication page */
 .publication h2 {
