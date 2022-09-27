@@ -23,18 +23,6 @@ a:link {
     text-decoration: none;
 }
 
-.outer-container {
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-.outer-container .home {
-    position: relative;
-    z-index: 1;
-    background-color: transparent;
-    color: white;
-}
 
 .butn {
     padding: 0.8rem 3rem;
@@ -620,31 +608,29 @@ ul.dropdown-menu .dropdown-item {
 }
 
 /* css for the certificate page */
-.certificate-img {
-    height: 70rem;
-    width: 100rem;
+.certification{
+    margin-top: 5rem;
 }
-.issue-date {
-    margin-bottom: 2rem;
+
+.certi-outer-container{
+    padding: 20px;
+    box-shadow: 5px 15px 20px rgba(82, 159, 178, 0.4);
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
 }
-.certificate-btn {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+
+.outer-cont-heading{
+    margin-bottom: 20px;
 }
+
+.deep-learn{
+    margin-bottom: 25px;
+}
+
+
+
 @media (max-width: 480px) {
-    section.certification .heading {
-        font-size: 3rem;
-    }
-    section.certification h2 {
-        font-size: 1.8rem;
-    }
-    section.certification h3 {
-        font-size: 1.5rem;
-    }
-    .certificate-img {
-        height: 220px;
-        width: 280px;
-    }
+   
 }
 
 
@@ -691,6 +677,7 @@ ul.dropdown-menu .dropdown-item {
 }
 
 /* css for the experience section */
+
 
 .ex-heading{
     margin-bottom: 30px;
