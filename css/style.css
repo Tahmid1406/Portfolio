@@ -469,8 +469,9 @@ ul.dropdown-menu .dropdown-item {
 
 /* css for the project page */
 .project-card img{
-    max-width: 90% !important;
-    max-height: 400px !important;
+    max-width: 80% !important;
+    max-height: 300px !important;
+    margin-top: 15px;
 }
 
 .project-btn-git{
@@ -542,7 +543,7 @@ ul.dropdown-menu .dropdown-item {
 
 /* css for the certificate page */
 .certi-outer-container{
-    margin-top: 20px;
+    
     margin-bottom: 20px;
     padding: 40px;
     box-shadow: 3px 3px 10px -1px var(--blue);
@@ -644,8 +645,8 @@ ul.dropdown-menu .dropdown-item {
 }
 
 .ex-nsu-logo{
-    height: 150px;
-    width: 180px;
+    height: 80px;
+    width: 80px;
 }
 
 
