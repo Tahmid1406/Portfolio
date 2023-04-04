@@ -118,7 +118,6 @@ a.nav-link {
     color: #FFF !important;
 }
 
-
 .nav-profile-icons {
     color: rgba(0, 0, 0, 0.8) !important;
     padding: 5px;
@@ -126,6 +125,28 @@ a.nav-link {
     font-size: 2.2rem;
     margin-right: 2rem;
 }
+
+a.nav-blog-icon{
+    font-size: 14px;
+    background-color:var(--blue) !important;
+    color: #fff;
+    padding: 1px 18px;
+    font-weight: 520;
+    margin-right: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar form a:hover {
+    color: #fff;
+}
+
 
 .nav-img {
     height: 4.5rem;
@@ -652,9 +673,10 @@ ul.dropdown-menu .dropdown-item {
 .ex-nsu-logo{
     height: 80px;
     width: 80px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: -8px;
 }
-
-
 
 .main-timeline-2 {
     position: relative;
@@ -711,9 +733,9 @@ position: absolute;
 top: 18px;
 z-index: 1;
 right: 30px;
-border: medium solid white;
+border: medium solid var(--blue);
 border-width: 10px 0 10px 10px;
-border-color: transparent transparent transparent white;
+border-color: transparent transparent transparent var(--blue);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -723,9 +745,9 @@ position: absolute;
 top: 18px;
 z-index: 1;
 left: 30px;
-border: medium solid white;
+border: medium solid var(--blue);
 border-width: 10px 10px 10px 0;
-border-color: transparent white transparent transparent;
+border-color: transparent var(--blue) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -753,9 +775,9 @@ left: -14px;
 /* Make sure that all arrows are pointing leftwards */
 .timeline-2::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid var(--blue);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent var(--blue) transparent transparent;
 }
 
 /* Make sure all circles are at the same spot */
@@ -776,11 +798,23 @@ left: -14px;
 
 
 
-#preloader{
-    background:rgba(0, 0, 0) url(../images/pre.gif) no-repeat center;
-    background-size: 30%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;    
+
+/* css for blog page */
+
+.blog-card{
+    box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.5);
+}
+
+.blog-des{
+    margin-left: 46%;
+}
+
+.blog-img{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+.blog-img img {
+    width: 70%;
 }
